@@ -10,6 +10,7 @@ var connection = mysql.createConnection({
   database: "burgers_db"
 });
 
+
 // Initiate connection to database and console log threadId
 connection.connect(function(err) {
   if (err) {
